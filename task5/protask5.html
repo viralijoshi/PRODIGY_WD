@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Forecast</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="weather-app">
+            <header>
+                <h1>Weather Forecast App</h1>
+                <p>Get real-time weather updates for any city in the world</p>
+            </header>
+            <div class="search-bar">
+                <input type="text" id="city" placeholder="Enter city name">
+                <button onclick="getWeather()">Search</button>
+            </div>
+            <div class="weather-info" id="weather-info">
+                <!-- Weather information will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script5.js"></script>
+</body>
+</html>
